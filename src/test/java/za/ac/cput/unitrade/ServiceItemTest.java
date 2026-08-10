@@ -37,14 +37,14 @@ class ServiceItemTest {
         ServiceItemDTO item = new ServiceItemDTO();
 
         item.setId(1);
-        item.setName("Laptop Repair");
-        item.setDescription("Fixing student laptops");
+        item.setName("Laptop Repair.");
+        item.setDescription("Fixing student laptops.");
         item.setPrice(250.00);
         item.setUserId(10);
 
         assertEquals(1, item.getId());
-        assertEquals("Laptop Repair", item.getName());
-        assertEquals("Fixing student laptops", item.getDescription());
+        assertEquals("Laptop Repair.", item.getName());
+        assertEquals("Fixing student laptops.", item.getDescription());
         assertEquals(250.00, item.getPrice());
         assertEquals(10, item.getUserId());
 
