@@ -14,7 +14,6 @@ public class ServiceItemRepository implements IServiceItemRepository {
         itemList = new ArrayList<>();
     }
 
-    // singleton access
     public static IServiceItemRepository getRepository() {
         if (repository == null) {
             repository = new ServiceItemRepository();
